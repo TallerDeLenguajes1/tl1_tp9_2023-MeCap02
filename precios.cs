@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 namespace precios
 {
     // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
+    public enum Tipo { EUR = 1, GBP, USD }
     public class Bpi
     {
         public USD USD { get; set; }
